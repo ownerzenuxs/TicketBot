@@ -1,0 +1,25 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "clientId": "YOUR_CLIENT_ID",
+  "guildId": "YOUR_GUILD_ID",
+  "texts": {
+    "embedTitle": "Ticket System",
+    "embedDescription": "Select a category from the dropdown below to create a ticket.",
+    "dropdownPlaceholder": "Choose a category...",
+    "ticketCreatedMessage": "Your ticket has been created successfully!"
+  },
+  "categories": [
+    {
+      "label": "🚫 Ban Appeals",
+      "categoryId": "CATEGORY_ID_1"
+    },
+    {
+      "label": "💳 Billing",
+      "categoryId": "CATEGORY_ID_2"
+    },
+    {
+      "label": "❓ Other",
+      "categoryId": "CATEGORY_ID_3"
+    }
+  ]
+}
