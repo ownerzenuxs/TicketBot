@@ -79,7 +79,8 @@ client.on('interactionCreate', async (interaction) => {
       .setDescription(
         `**Open a ticket!**\n\n` +
         `**How to create a ticket?**\n` +
-        `Please choose the appropriate category when opening a ticket. If you're unsure, select "General Support".`
+        `Please choose the right category when opening a ticket. If you don't know what it falls under, please open a general support ticket.\n\n` +
+        `\`\`\`Once you open a ticket, you'll have to answer the questions. Please fill them out so we can help you quickly and understand your issue better!\`\`\``
       )
       .setColor('Blue');
 
